@@ -25,6 +25,8 @@ function getVerdict(data) {
     default:
       verdict = interactorVerdict;
   }
+
+  return verdict;
 }
 
 process.stdin.on("data", (data) => {
